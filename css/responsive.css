@@ -371,6 +371,9 @@
 
 
 @media only screen and (max-width: 991px){
+figure {
+    margin: 25px 0 0 0;
+}
 
   .sticky-header{
     display: none;
@@ -389,7 +392,7 @@
   .main-header .header-upper .inner-container .left-content,
   .main-header .header-upper .inner-container .right-content{
     float: none;
-    display: block;
+    display: inline-flex;
     text-align: center;
   }
 
@@ -2037,6 +2040,7 @@
 
  .main-header.style-six .header-upper .btn-box a{
   padding: 12px 35px;
+  margin: 0 0 0 1em;
  }
 
  .industries-section .content-box .lower-box h2{
